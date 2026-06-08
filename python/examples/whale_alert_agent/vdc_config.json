@@ -1,0 +1,19 @@
+{
+  "agent_id": "whale-alert-pioneer-001",
+  "name": "Whale Alert Pioneer",
+  "description": "Real-time Crypto Whale Alert Summary for M2M strategies.",
+  "version": "1.0.0",
+  "capabilities": ["crypto_analysis", "whale_tracking"],
+  "merchant_config": {
+    "wallet_address": "0x07a54080A1120ea10cBAb226AeFACf98057aa53e",
+    "network": "base-mainnet",
+    "accepted_tokens": ["USDC", "ETH"],
+    "pricing": {
+      "summary_request": 0.01
+    }
+  },
+  "x402_protocol": {
+    "enabled": true,
+    "enforcement_mode": "pre-payment"
+  }
+}
